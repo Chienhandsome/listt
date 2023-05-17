@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         lvUser =  findViewById(R.id.lv_user);
         ArrayList<user> arrayList = new ArrayList<>();
 
-        user  usr1 =   new user(link1,"Đinh Trần Công Chiến","Hi! R u ok?", 0);
+        user  usr1 = new user(link1,"Đinh Trần Công Chiến","Hi! R u ok?", 0);
         user  usr2 = new user(link2,"Nguyễn Văn A",        "Niceee!!!", 1);
         user  usr3 = new user(link3,"Trần Lưu",            "come on dude:/", 0);
 
