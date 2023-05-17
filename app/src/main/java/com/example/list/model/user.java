@@ -6,20 +6,21 @@ public class user {
     private int mCoLor;
     private String mName;
     private String mNumBer;
+    private String mLink;
     private int status;
-    public user(int mCoLor, String mName, String mNumBer,int status) {
-        this.mCoLor = mCoLor;
+    public user(String mLink, String mName, String mNumBer,int   status) {
+        this.mLink = mLink;
         this.mName = mName;
         this.mNumBer = mNumBer;
         this.status = status;
     }
 
-    public int getmCoLor() {
-        return mCoLor;
+    public String getmLink() {
+        return mLink;
     }
 
-    public void setmCoLor(int mCoLor) {
-        this.mCoLor = mCoLor;
+    public void setmLink(String mLink) {
+        this.mLink = mLink;
     }
 
     public String getmName() {
